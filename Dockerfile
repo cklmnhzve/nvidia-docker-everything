@@ -1,4 +1,4 @@
-FROM opencv3.4-cuda9-python2.7:latest
+FROM cklmnh/opencv3.4-cuda9-python2.7:1.0
 LABEL maintainer "cklmnhzve@163.com"
 
 ENV CUDNN_VERSION 7.1.2.21
